@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+ 	 <title>Bands in town</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container">
+		  	<a class="navbar-brand" href="index.html">Bands in Town</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		 
+		  </div>
+	</nav>
+  <div class="container mt-5">
+  
+   
+   	<div class="row">
+   			<div class="col-md-6 form-outer">	
+	   			<!-- Search form -->
+	   			<form id="submit">
+	    			<div class="input-group">
+	    				<input type="text" name="search" id="search" placeholder="Search Artist" class="form-control shadow-sm" /><a href="#" class="search-icon"></a>
+	    				<button type="submit" id="submitbtn"><i class="fa fa-search"></i></button>
+	    		 
+
+	    			</div>
+	    		</form>
+	    	</div>
+    </div>
+
+   <!-- default hidden -->
+   <div class="row mx-auto" id="results">
+	   	<div class="artists-grid" id="artist">
+	   			<!-- artist media box-->
+	   			
+			   	<div class="media col-md-4 shadow-sm"> 
+			   		<img class="mr-3 artist-img" src="img/default.jpg" id="artist-img" alt="Artist Image">
+			   		<div class="media-body"> <h5 class="mt-0" id="artist-name"><!-- artist name from JS --></h5>
+			   			<span id="artist-fb"><!--artist fb link generated from JS--></span>
+			   		</div>
+				</div> 
+						
+	   </div>
+
+   </div>
+ 
+ </body>
+ <script type="text/javascript" src="js/main.js"></script>
+</html>

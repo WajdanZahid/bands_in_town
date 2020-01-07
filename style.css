@@ -1,0 +1,123 @@
+
+body{
+	background: #efefef;
+}
+.form-outer{
+	margin-top: 150px;
+}
+#results{
+	display: none;
+}
+.artist-img{
+	min-width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.artists-grid{
+	margin-top:100px;
+}
+.artists-grid .media{
+    background: #fff;
+    word-break: break-word;
+    padding:10px 15px;
+}
+.form-control{
+	height: auto;
+    padding: 10px 15px;
+    border-radius: 0px;
+    border: none;
+    font-size: 12px;
+    line-height: 29px;
+}
+.form-control:focus{
+	border:none;
+    box-shadow: 1px 1px 5px 1px rgba(0,123,255,.25);
+}
+.media-body a{
+	color:#333;
+}
+/* details page*/
+.profile-img{
+	max-width: 300px;
+	margin: 0px auto;
+	display: block;
+}
+.widget,.content{
+	background: #fff;
+}
+.widget{
+	padding: 10px 25px;
+	width: 100%;
+}
+.profile h1{
+	font-size: 28px;
+}
+.event_date {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.event_date_wrapper{
+    background: #A6192E;
+    position: relative;
+    color: #fff;
+    min-height: 72px;
+    vertical-align: middle;
+    text-align: center;
+    width: 80px;
+}
+.event_date span{
+     width: 100%;
+    line-height: 22px;
+    display:block;
+}
+span.date {
+     display: block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+}
+span.month {
+    font-size: 18px;
+    font-weight: bold;
+}
+.details-{
+	flex-grow: 7;
+	    padding-left: 10px;
+}
+.details- h2 {
+    font-size: 20px;
+    line-height: 22px;
+    color: #333;
+        margin-top: 7px;
+    margin-bottom: 9px;
+}
+.venue-listing{
+	width: 100%;
+
+}
+.event-row {
+    display: flex;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-right: 15px;
+    background: #fff;
+    /* -webkit-box-shadow: 0 15px 34px rgba(0, 0, 0, 0.18); */
+    border: 1px solid #dedede;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ticket .btn{
+	    margin-top: 15px;
+}
+.location {
+    font-size: 14px;
+    color: #606060;
+}
+
+.location .fa {
+    margin-right: 10px;
+}
